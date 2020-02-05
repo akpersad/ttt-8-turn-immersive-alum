@@ -49,6 +49,6 @@ def turn(board)
     move(board, input)
     display_board(board)
   else
-    # error
+    turn(board)
   end
 end
